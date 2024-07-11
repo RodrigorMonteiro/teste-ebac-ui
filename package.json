@@ -1,0 +1,15 @@
+{
+  "name": "teste-ebac-ui",
+  "version": "1.0.0",
+  "description": "Repositório para os testes de UI do curso de Engenharia de Qualidade de Software da EBAC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.0"
+  }
+}
