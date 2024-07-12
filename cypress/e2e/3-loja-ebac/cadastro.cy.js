@@ -28,7 +28,6 @@ describe('Funcionalidade: Cadastro', () => {
         cy.get('.woocommerce-MyAccount-navigation-link--edit-account > a').click()
         cy.get('#account_first_name').type(faker.person.firstName(), {delay: 150})
         cy.get('#account_last_name').type(faker.person.lastName(), {delay: 150})
-        //cy.wait(5000) -- Esperar 5 segundos
         cy.get('.woocommerce-Button').click()
         cy.get('.woocommerce-message').should('exist')
       });
