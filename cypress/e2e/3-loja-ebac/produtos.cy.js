@@ -2,7 +2,7 @@
 
 describe('Funcionalidade: Produtos', () =>{
     beforeEach(() => {
-        cy.visit ('http://lojaebac.ebaconline.art.br/produtos/')
+        cy.visit ('produtos')
       })
       it('Deve selecionar um produto da lista', () => {
         cy.get('.product-block')
@@ -16,7 +16,7 @@ describe('Funcionalidade: Produtos', () =>{
             .click()
             cy.get('.woocommerce-product-details__short-description > p').should('contain', 'Abominable Hoodie')
       });
-      it.only('Deve selecionar o último produto da lista', () => {
+      it('Deve selecionar o último produto da lista', () => {
         cy.get('.product-block')
             .last() 
             .click()
