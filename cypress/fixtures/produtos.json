@@ -1,0 +1,20 @@
+[
+    {
+        "nomeProduto": "Abominable Hoodie",
+        "tamanho": "XS",
+        "cor": "Blue",
+        "quantidade": 3
+    },
+    {
+        "nomeProduto": "Aether Gym Pant",
+        "tamanho": "34",
+        "cor": "Green",
+        "quantidade": 1
+    },
+    {
+        "nomeProduto": "Autumn Pullie",
+        "tamanho": "S",
+        "cor": "Purple",
+        "quantidade": 7
+    }
+]
