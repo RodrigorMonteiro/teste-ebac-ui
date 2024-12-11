@@ -4,7 +4,7 @@
   "description": "Repositório para os testes de UI do curso de Engenharia de Qualidade de Software da EBAC.",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --browser chrome",
+    "test": "npx cypress run",
     "cy:dash" : "npx cypress run --record --key b14a7796-3290-4cf4-84e3-9752cfdc523b"
   },
   "keywords": [],
